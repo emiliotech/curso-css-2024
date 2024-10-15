@@ -10,5 +10,6 @@ body{
     padding: 10px;
     box-sizing: border-box;
     font-size: 28px;
-    overflow: auto; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
 }
