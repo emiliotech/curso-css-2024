@@ -1,5 +1,6 @@
 body{
-    background: #09f;
+    background: rgb(188, 228, 255);
+
     margin: 0;
 }
 
@@ -12,4 +13,25 @@ body{
     font-size: 28px;
     overflow: hidden; 
     text-overflow: ellipsis;
+}
+
+/*
+Position
+*/
+.position-section {
+    border: 5px solid #000;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    position: static;
+    position: relative;
+}
+
+.position-container {
+    background: #09f;
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top : 0;
+    left: 0;
 }
