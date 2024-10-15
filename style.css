@@ -31,7 +31,9 @@ Position
     width: 100px;             /* Ancho del contenedor hijo */
     height: 100px;            /* Alto del contenedor hijo */
     position: absolute;       /* Se posiciona de forma absoluta dentro del padre (.position-section) */
-    top: 0;                   /* Alineado al borde superior del padre */
-    left: 0;                  /* Alineado al borde izquierdo del padre */
+   /* top: 0;                    Alineado al borde superior del padre */
+   /* left: 0;                   Alineado al borde izquierdo del padre */
+   margin: auto;
+   inset: 0;
 }
 
