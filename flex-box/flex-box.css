@@ -1,0 +1,27 @@
+
+.parent{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    width: 300px;
+    border: 1px solid;
+
+    flex-grow: 0; /*los elementos No crecen*/
+    flex-shrink: 1 /*los elementos pueden reducir su tamaño a un tamaño mas pequeño que su flex-basis*/;
+    flex-basis: auto; /*los elementos tienen un tamaño base en auto*/
+}
+.item {
+    border: 1px solid;
+    opacity: .9;
+    width: 50px;
+    height: 50px;
+    background: #09f; 
+}
+
+.item:first-child {
+    background: yellow;
+}
+.item:last-child{
+    background: red;
+}
