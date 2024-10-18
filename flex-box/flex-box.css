@@ -3,7 +3,7 @@
     display: flex;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     width: 300px;
     border: 1px solid;
 
@@ -13,18 +13,22 @@
     border: 1px solid;
     opacity: .9;
     width: 50px;
-    height: 50px;
-    background: #09f; 
+    height: 200px;  
+ 
 
-    /*valores por defecto*/
-    flex-grow: 0; /*los elementos No crecen*/
-    flex-shrink: 1 /*los elementos pueden reducir su tamaño a un tamaño mas pequeño que su flex-basis*/;
-    flex-basis: auto; /*los elementos tienen un tamaño base en auto*/
+    flex: 1;
 }
 
 .item:first-child {
     background: yellow;
+    flex: 3;
 }
+
+.item:nth-child(2) {
+    background: blue;
+    flex: 2;
+}
+
 .item:last-child{
     background: red;
 }
