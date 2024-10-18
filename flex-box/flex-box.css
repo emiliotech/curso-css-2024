@@ -3,27 +3,29 @@
     display: flex;
     /* flex-direction: row; */
     /* flex-wrap: wrap; */
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     width: 250px;
-    height: 400px;
+    height: 500px;
     border: 4px solid;
     box-sizing: border-box;
     justify-content:center;
     gap: 12px;
-    
+    align-items: center;
+    align-content: center;
 }
 .item {
     border: 1px solid;
     opacity: .9;
     width: 50px;
     height: 50px;  
- 
+
+    background: #09f;
  
 }
 
 .item:first-child {
     background: yellow;
-    
+    height: 30px;
 }
 
 .item:nth-child(2) {
