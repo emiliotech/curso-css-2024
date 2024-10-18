@@ -30,6 +30,8 @@
 
 .item:nth-child(2) {
     background: blue;
+    align-self: flex-start;
+    height: 20px;
      
 }
 
