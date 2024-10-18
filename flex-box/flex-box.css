@@ -22,13 +22,16 @@
 .item:first-child {
     background: yellow;
     flex: 3;
+    order: 3; 
 }
 
 .item:nth-child(2) {
     background: blue;
     flex: 2;
+    order: 1;
 }
 
 .item:last-child{
     background: red;
+    order: 2;
 }
