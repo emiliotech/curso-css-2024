@@ -7,9 +7,7 @@
     width: 300px;
     border: 1px solid;
 
-    flex-grow: 0; /*los elementos No crecen*/
-    flex-shrink: 1 /*los elementos pueden reducir su tamaño a un tamaño mas pequeño que su flex-basis*/;
-    flex-basis: auto; /*los elementos tienen un tamaño base en auto*/
+    
 }
 .item {
     border: 1px solid;
@@ -17,6 +15,11 @@
     width: 50px;
     height: 50px;
     background: #09f; 
+
+    /*valores por defecto*/
+    flex-grow: 0; /*los elementos No crecen*/
+    flex-shrink: 1 /*los elementos pueden reducir su tamaño a un tamaño mas pequeño que su flex-basis*/;
+    flex-basis: auto; /*los elementos tienen un tamaño base en auto*/
 }
 
 .item:first-child {
